@@ -1,0 +1,22 @@
+// npm install -g sass
+$link-color: blue;
+
+a {
+  color: $link-color;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+
+// Umwandlung in CSS nur anzeigen oder direkt in .css schreiben
+// sass style.scss 
+// a {
+//   color: blue;
+// }
+// a:hover {
+//   text-decoration: underline;
+// }
+// 
+// sass style.scss style.css
